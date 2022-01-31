@@ -16,7 +16,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: The RESTful routes that must always be passed params are put, patch, and delete. Params are required for put and patch because these routes seek to change the data of a particular instance, therefore, the url must be passed the param of the index that we are looking to change. Delete must be passed params because the url needs to know which instance is being deleted. Get would need a param to call the method show or edit method in order to identify which index is being "shown" or which index needs an edit form, but it does not need params for the methods of index or new.
 
-  Researched answer: After further investigation it seems that every RESTful route will need a param. Even the method post, which does not need to identify any index in the table, still needs to pass the param of the table itself to the url.
+  Researched answer: After further investigation it seems that every RESTful route will need a param. Even the method post, which does not need to identify any index in the table, still needs to pass the param of the table itself, to the url.
 
 
 
